@@ -46,5 +46,5 @@ The source also includes:
 ## Details
 * Made by Ben Skudder
 * Shared under [MIT](https://opensource.org/licenses/MIT)
-* source code can be found [here]()
+* source code is hosted on GitHUb [here](https://github.com/skudz/Covid-dashboard)
 
