@@ -1,5 +1,3 @@
-# Covid-dashboard
-ECM1400 coursework
 # Covid-19 Dashboard 
 ## Introduction
 This project creates a COVID-19 dashboard with up-to-date 
@@ -10,7 +8,7 @@ of deaths in your country. On the right-hand side of the dashboard will be a wid
 latest news that relates to COVID-19; and on the left and lower centre there is a scheduling widget 
 for you to create update schedules so that the data shown on the dashboard will update at a given interval.
 ## Prerequisites
-* Python 3.6 or above
+* Python 3.7 or above
 * Python sched module
 * Python flask module
 * Python time module
@@ -34,7 +32,19 @@ Now navigate to the webpage at http://127.0.0.1:5000/index
 * Navigate to the folder containing this project
 * Run pytest
 ## Developer documentation
+The source code contains 4 python modules:
+* main.py
+* covid_data_handler.py
+* covid_news_handling.py
+* time_conversions.py
+
+The source also includes:
+* config.json (configuration file)
+* index.html (Template for the dashboard)
+* nation_2021-10-28.csv (csv file including covid data)
+
 ## Details
 * Made by Ben Skudder
 * Shared under [MIT](https://opensource.org/licenses/MIT)
 * source code can be found [here]()
+
